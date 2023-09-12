@@ -1,0 +1,11 @@
+{
+    "schemaVersion": 1,
+    "commandMode": "COMMAND_CUSTOM",
+    "command": "afk",
+    "actions": [
+        {
+            "command": "execute as $executor_name() run trigger first_afk",
+            "commandType": "SERVER"
+        }
+    ]
+}
