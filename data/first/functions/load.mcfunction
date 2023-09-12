@@ -8,5 +8,12 @@ scoreboard objectives add first_counter dummy
 # Counts how often the player has been first
 scoreboard objectives add first_number dummy
 
+
+
+
+
+
+
+
 # Trigger objective for AFK functionality
 scoreboard objectives add first_afk trigger

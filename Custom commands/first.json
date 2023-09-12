@@ -1,0 +1,11 @@
+{
+    "schemaVersion": 1,
+    "commandMode": "COMMAND_CUSTOM",
+    "command": "first",
+    "actions": [
+        {
+            "command": "execute as $executor_name() run function first:first",
+            "commandType": "SERVER"
+        }
+    ]
+}
