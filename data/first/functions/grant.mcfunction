@@ -36,7 +36,7 @@ loot spawn 95 -53 -77 loot first:head
 execute positioned 95 -53 -77 run data modify storage first:first Player set from entity @e[type=item,sort=nearest,limit=1] Item.tag.SkullOwner.Name
 
 # Kill head entity
-kill @e[type=item,tag=first_head]
+execute positioned 95 -53 -77 run kill @e[type=item,sort=nearest,limit=1]
 
 # Store player score
 execute store result storage first:first Score int 1 run scoreboard players get @s first_number
